@@ -7,7 +7,9 @@
         xmlns:local="clr-namespace:$safeprojectname$"
         mc:Ignorable="d"
         Title="MainWindow" 
-		Height="450" Width="800">
+		Height="720" Width="1280"
+		WindowState="Maximized">
+	
 	<Grid>
 		<blazor:BlazorWebView HostPage="wwwroot\index.html" Services="{DynamicResource services}">
 			<blazor:BlazorWebView.RootComponents>
