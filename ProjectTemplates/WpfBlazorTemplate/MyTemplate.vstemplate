@@ -20,10 +20,8 @@
       <Folder Name="wwwroot" TargetFolderName="wwwroot">
         <Folder Name="css" TargetFolderName="css">
           <ProjectItem ReplaceParameters="true" TargetFileName="app.css">app.css</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="app.css">vstg0001.css</ProjectItem>
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="index.html">vstg0002.html</ProjectItem>
       </Folder>
       <Folder Name="Layout" TargetFolderName="Layout">
         <ProjectItem ReplaceParameters="true" TargetFileName="MainLayout.razor">MainLayout.razor</ProjectItem>
@@ -35,7 +33,6 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">vstg0003.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="RootComponent.razor">RootComponent.razor</ProjectItem>
     </Project>
