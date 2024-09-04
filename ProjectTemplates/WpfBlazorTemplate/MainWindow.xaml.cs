@@ -31,12 +31,12 @@ internal static class Injector
 			return new DictionaryRedirectUriProvider()
 			{
 				// 根路径
-				new KeyValuePair<string, string>("", "普通/home"),
+				new KeyValuePair<string, string>("", "commom/home"),
 
 				// 二级导航
-				new KeyValuePair<string, string>("普通", "普通/home"),
-				new KeyValuePair<string, string>("普通", "普通/page1"),
-				new KeyValuePair<string, string>("维护", "维护/log"),
+				new KeyValuePair<string, string>("commom", "commom/home"),
+				new KeyValuePair<string, string>("commom", "commom/page1"),
+				new KeyValuePair<string, string>("maintain", "maintain/log"),
 			};
 		});
 

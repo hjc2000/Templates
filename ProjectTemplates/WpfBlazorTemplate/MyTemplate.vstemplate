@@ -30,13 +30,15 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="MainLayout.razor">MainLayout.razor</ProjectItem>
       </Folder>
       <Folder Name="Pages" TargetFolderName="Pages">
-		  <Folder Name="Pages" TargetFolderName="普通">
+		  <ProjectItem ReplaceParameters="true" TargetFileName="CatchAllPage.razor">CatchAllPage.razor</ProjectItem>
+		  <ProjectItem ReplaceParameters="true" TargetFileName="CatchAllPage.razor.cs">CatchAllPage.razor.cs</ProjectItem>
+		  <Folder Name="普通" TargetFolderName="普通">
 			  <ProjectItem ReplaceParameters="true" TargetFileName="Home.razor">Home.razor</ProjectItem>
 			  <ProjectItem ReplaceParameters="true" TargetFileName="Home.razor.cs">Home.razor.cs</ProjectItem>
 			  <ProjectItem ReplaceParameters="true" TargetFileName="Page1.razor">Page1.razor</ProjectItem>
 			  <ProjectItem ReplaceParameters="true" TargetFileName="Page1.razor.cs">Page1.razor.cs</ProjectItem>
 		  </Folder>
-		  <Folder Name="Pages" TargetFolderName="维护">
+		  <Folder Name="维护" TargetFolderName="维护">
 			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor">LogPage.razor</ProjectItem>
 			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor.cs">LogPage.razor.cs</ProjectItem>
 		  </Folder>
