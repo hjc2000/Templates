@@ -12,6 +12,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.82" />
+		<PackageReference Include="RazorUI" Version="5.0.1" />
 	</ItemGroup>
 </Project>
