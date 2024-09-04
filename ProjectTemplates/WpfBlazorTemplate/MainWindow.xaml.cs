@@ -35,7 +35,6 @@ internal static class Injector
 
 				// 二级导航
 				new KeyValuePair<string, string>("commom", "commom/home"),
-				new KeyValuePair<string, string>("commom", "commom/page1"),
 				new KeyValuePair<string, string>("maintain", "maintain/log"),
 			};
 		});

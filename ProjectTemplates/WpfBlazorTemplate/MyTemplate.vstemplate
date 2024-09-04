@@ -27,6 +27,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="LeftBar.razor">LeftBar.razor</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="LeftNavMenu.razor">LeftNavMenu.razor</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="LeftNavMenu.razor.cs">LeftNavMenu.razor.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LeftNavMenu.razor.css">LeftNavMenu.razor.css</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="MainLayout.razor">MainLayout.razor</ProjectItem>
       </Folder>
       <Folder Name="Pages" TargetFolderName="Pages">
@@ -41,6 +42,7 @@
 		  <Folder Name="维护" TargetFolderName="维护">
 			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor">LogPage.razor</ProjectItem>
 			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor.cs">LogPage.razor.cs</ProjectItem>
+			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor.css">LogPage.razor.css</ProjectItem>
 		  </Folder>
 	  </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="_Imports.razor">_Imports.razor</ProjectItem>

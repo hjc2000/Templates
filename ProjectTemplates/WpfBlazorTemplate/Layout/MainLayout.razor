@@ -2,8 +2,11 @@
 
 <RazorUI.Layout.PCLayoutComponent>
 	<LeftBarContent>
-		<LeftBar></LeftBar>
+		<$safeprojectname$.Layout.LeftBar></$safeprojectname$.Layout.LeftBar>
 	</LeftBarContent>
+	<LeftMenu>
+		<$safeprojectname$.Layout.LeftNavMenu></$safeprojectname$.Layout.LeftNavMenu>
+	</LeftMenu>
 	<Content>
 		@Body
 	</Content>
