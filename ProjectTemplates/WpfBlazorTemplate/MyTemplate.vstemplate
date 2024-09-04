@@ -24,11 +24,23 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       </Folder>
       <Folder Name="Layout" TargetFolderName="Layout">
+        <ProjectItem ReplaceParameters="true" TargetFileName="LeftBar.razor">LeftBar.razor</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LeftNavMenu.razor">LeftNavMenu.razor</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LeftNavMenu.razor.cs">LeftNavMenu.razor.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="MainLayout.razor">MainLayout.razor</ProjectItem>
       </Folder>
       <Folder Name="Pages" TargetFolderName="Pages">
-        <ProjectItem ReplaceParameters="true" TargetFileName="TestPage.razor">TestPage.razor</ProjectItem>
-      </Folder>
+		  <Folder Name="Pages" TargetFolderName="普通">
+			  <ProjectItem ReplaceParameters="true" TargetFileName="Home.razor">Home.razor</ProjectItem>
+			  <ProjectItem ReplaceParameters="true" TargetFileName="Home.razor.cs">Home.razor.cs</ProjectItem>
+			  <ProjectItem ReplaceParameters="true" TargetFileName="Page1.razor">Page1.razor</ProjectItem>
+			  <ProjectItem ReplaceParameters="true" TargetFileName="Page1.razor.cs">Page1.razor.cs</ProjectItem>
+		  </Folder>
+		  <Folder Name="Pages" TargetFolderName="维护">
+			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor">LogPage.razor</ProjectItem>
+			  <ProjectItem ReplaceParameters="true" TargetFileName="LogPage.razor.cs">LogPage.razor.cs</ProjectItem>
+		  </Folder>
+	  </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="_Imports.razor">_Imports.razor</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
