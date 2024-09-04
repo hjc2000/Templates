@@ -11,6 +11,7 @@
 	  <None Include="wwwroot\index.html" />
 	</ItemGroup>
 	<ItemGroup>
+		<PackageReference Include="Icon" Version="1.0.2" />
 		<PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.82" />
 		<PackageReference Include="RazorUI" Version="5.0.1" />
