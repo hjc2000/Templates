@@ -51,6 +51,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="RootComponent.razor">RootComponent.razor</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GlobalSuppressions.cs">GlobalSuppressions.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
